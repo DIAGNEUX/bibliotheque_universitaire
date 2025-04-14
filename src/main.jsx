@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/bibliotheque_universitaire/"> 
+    <BrowserRouter basename="/bibliotheque_universitaire"> 
       <App />
     </BrowserRouter>
   </StrictMode>
